@@ -60,10 +60,13 @@ Exercise 6
 Solve Exercise 6 here:
 */
 for (let i = 0; i < game.gyms.length; i++){
+ //for the length of gyms, go through and iterate
   if (game.gyms[i].difficulty <= 3){
+    //if the gym at i, difficulty property is <=3, then
     game.gyms[i].completed = true
   }
 }
+// console.log(`Exercise 6 result is ${game.gyms}`)
 console.log(game.gyms)
 /*
 Exercise 7
